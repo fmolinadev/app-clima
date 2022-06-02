@@ -1,0 +1,11 @@
+.button {
+  border: solid 2px;
+  border-radius: 2px;
+  background-color: transparent;
+  color: white;
+  max-width: 80%;
+}
+.buttonInput {
+  margin-right: 10px;
+  border-radius: 2px;
+}

@@ -1,0 +1,33 @@
+.aboutCard {
+  max-width: 50%;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(5, 5, 5);
+}
+
+.container {
+  padding-top: 30px;
+}
+
+.tituloAbout {
+  padding-top: 15px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.tituloAbout:hover {
+  color: cadetblue;
+}
+
+.textoAbout {
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.spanAbout {
+  font-weight: 500;
+  padding-bottom: 65px;
+}

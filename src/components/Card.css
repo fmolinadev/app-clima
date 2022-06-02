@@ -1,0 +1,42 @@
+.card {
+  margin: 25px;
+  width: 18rem;
+  border-radius: 8px;
+  box-shadow: rgb(117, 111, 111) 0px 4px 12px;
+  backdrop-filter: blur(6px);
+}
+
+.card-title {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.card-title:hover {
+  color: rgb(43, 42, 42);
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 5px;
+  color: white;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.card:hover {
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+
+.iconoClima {
+  background-color: dodgerblue;
+  border-radius: 100px;
+}
+
+.btn {
+  color: red;
+}

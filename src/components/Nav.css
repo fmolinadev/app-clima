@@ -1,0 +1,28 @@
+.navbar-dark-bg-primary {
+  max-width: 90px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  padding-left: 20px;
+  font-weight: 550;
+}
+.iconoApp {
+  margin-right: 9px;
+}
+
+.searchBarContainer {
+  padding-right: 12px;
+}
+
+.searchBarContainer input {
+  outline: none;
+}
+
+.aboutCss {
+  font-weight: 400;
+  color: white;
+  text-decoration-style: none;
+}

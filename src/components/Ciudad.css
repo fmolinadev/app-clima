@@ -1,0 +1,33 @@
+.ciudad {
+  max-width: 50%;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(5, 5, 5);
+}
+
+.container {
+  padding-top: 30px;
+}
+
+.nameCity {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.nameCity:hover {
+  color: cadetblue;
+}
+
+.info {
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.sinData {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  line-height: 500px;
+}
