@@ -7,3 +7,12 @@
 .body {
   background-color: royalblue;
 }
+
+.cards h2 {
+  padding-top: 15%;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  margin: auto;
+}
