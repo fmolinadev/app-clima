@@ -1,0 +1,23 @@
+.container {
+  display: fixed;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  color: white;
+  text-decoration-style: none;
+}
+
+.container p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 92px;
+}
+
+.container a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+  text-decoration: none;
+}

@@ -1,18 +1,15 @@
 .aboutCard {
-  max-width: 50%;
+  max-width: 70%;
+  height: 320px;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 75px;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   color: rgb(5, 5, 5);
 }
 
-.container {
-  padding-top: 30px;
-}
-
 .tituloAbout {
-  padding-top: 15px;
+  padding-top: 26px;
   font-weight: 600;
   padding-bottom: 15px;
 }
@@ -22,12 +19,44 @@
 }
 
 .textoAbout {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
-.spanAbout {
+.textDescription {
+  font-size: 16px;
   font-weight: 500;
-  padding-bottom: 65px;
+  margin-top: 26px;
+  padding-bottom: 26px;
+}
+
+.about-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-links a {
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
+.link-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-right: 6px;
+  padding: 6px 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  color: #ffff;
+  background-color: cadetblue;
+}
+
+.link-button:hover {
+  color: cadetblue;
+  border: 1px solid cadetblue;
+  background-color: #ffff;
 }

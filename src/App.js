@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 import "./App.css";
 import swal from "sweetalert";
 
@@ -15,7 +16,7 @@ function App() {
 
   function onClose(id) {
     return swal({
-      title: "¿Estás seguto?",
+      title: "¿Estás seguro?",
       text: "Si aceptas, dejaras de ver la informacion de esta ciudad.",
       icon: "warning",
       buttons: true,
@@ -76,7 +77,6 @@ function App() {
   return (
     <div className="App">
       <Nav onSearch={onSearch} />
-
       <Routes>
         <Route path="/" element={<Cards cities={cities} onClose={onClose} />} />
 
@@ -86,6 +86,7 @@ function App() {
           element={<Ciudad onFilter={onFilter} />}
         />
       </Routes>
+      <Footer />
     </div>
   );
 }

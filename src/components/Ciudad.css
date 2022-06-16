@@ -1,19 +1,24 @@
 .ciudad {
-  max-width: 50%;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 120px;
   border-radius: 10px;
-  background-color: rgb(255, 255, 255);
   color: rgb(5, 5, 5);
 }
 
-.container {
-  padding-top: 30px;
+.containerDetail {
+  display: block;
+  top: 18px;
+  color: black;
+  margin: auto;
+  max-width: 35%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
 }
 
 .nameCity {
   font-weight: 700;
   padding-bottom: 20px;
+  padding-top: 28px;
 }
 
 .nameCity:hover {
